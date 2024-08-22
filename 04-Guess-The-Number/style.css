@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    max-width: 600px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343a40;
+    text-align: center;
+    margin: 0;
+}
+
+.box {
+    width: 100%;
+    text-align: center;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #495057;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ced4da;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.btn, .playagain-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.btn {
+    border: 2px solid #007bff;
+    background-color: #007bff;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.playagain-btn {
+    display: inline-block;
+    border: 2px solid red;
+    background-color: #00bcd4;
+    color: black;
+}
+
+.playagain-btn:hover {
+    background-color: #0097a7;
+    border-color: #00796b;
+}
+
+.playagain {
+    display: none;
+}
+
+.result {
+    font-size: 18px;
+    font-weight: bold;
+    color: #dc3545;
+    margin-bottom: 15px;
+}
+
+.chance {
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 15px;
+}
+
+.history {
+    font-size: 16px;
+    color: #495057;
+}
+
+.previous {
+    font-size: 16px;
+    color: #007bff;
+}

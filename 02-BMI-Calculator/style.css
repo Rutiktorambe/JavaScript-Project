@@ -1,0 +1,24 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;    
+}
+
+.box{
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.btn{
+    padding: 2px;
+    border: 1px solid black;
+    text-align: center;
+}

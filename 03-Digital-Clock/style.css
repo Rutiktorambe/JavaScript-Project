@@ -1,0 +1,32 @@
+.center {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading{
+ font-size: 40px;
+ color: rgb(69, 65, 65);
+ font-weight: 700;
+ text-shadow: 1px 1px 1px  black;
+}
+.clock {
+   
+    background-color: orange;
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.icon{
+    display: flex;
+    font-weight: 700;
+
+}
+
+#time{
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: 500;
+}

@@ -1,0 +1,22 @@
+.box{
+    display: flex;
+    gap:10px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 7px 15px;
+    box-shadow: 2px 2px 2px black;
+    font-size: 20px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+#stop{
+    background-color: red;
+}
+
+#start{
+    background-color: green;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>
+            To-Do app using JS
+        </h1>
+    </div>
+    <div class="container">
+        <div class="record">
+            <div class="record-counter">
+                <div class="task-total-count">Total Tasks: <span id="total-count">00</span></div>
+                <div class="task-remaining-count">Remaining Tasks: <span id="remaining-count">00</span></div>
+            </div>
+            <button class="btn-add">NewTask➕</button>
+        </div>
+
+        
+        <div id="disply-form" class="visibility">
+            <div class="input-form">
+                <label for="title" class="input-title-label">Task Title</label>
+                <input type="text" class="input-title" required>
+
+                <label for="title" class="input-body-label">Task Description</label>
+                <input type="text" class="input-body">
+
+                <button class="input-Done" onclick="addTask_input()">
+                    ADD
+                </button>
+            </div>
+        </div>
+        <div class="box">
+
+            <!-- <div class="task">
+                <div class="task-header">
+                    <div class="task-title">Do JS Project</div>
+                    <div class="task-btn">
+                        <button class="task-done">✅</button>
+                        <button class="task-notdone">❌</button>
+                        <button class="task-remove" onclick="taskRemove()">🗑️</button>
+                    </div>
+                </div>
+                <div class="task-body"> complete my  js todo Project Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim distinctio dicta porro error sapiente saepe aperiam nam vel, tempora aliquid!</div>
+            </div> -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
